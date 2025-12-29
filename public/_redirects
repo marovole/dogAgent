@@ -1,0 +1,8 @@
+# Cloudflare Pages redirects
+# See: https://developers.cloudflare.com/pages/configuration/redirects/
+
+# Root redirect to default locale (English)
+/ /en/ 302
+
+# Language detection could be done via Cloudflare Workers if needed
+# For now, default to English and let users switch manually
