@@ -1,4 +1,5 @@
 import os
+import time
 from datetime import datetime, timedelta
 from typing import Optional
 from brave import Brave
@@ -12,6 +13,16 @@ class BraveSearchClient:
             raise ValueError("BRAVE_SEARCH_API_KEY not found")
         self.client = Brave(api_key=self.api_key)
 
+    def _get_source_name(self, item) -> str:
+        """Safely extract source name from item profile."""
+        profile = getattr(item, "profile", None)
+        if profile is None:
+            return "Web"
+        # Handle both dict and object types
+        if isinstance(profile, dict):
+            return profile.get("name", "Web")
+        return getattr(profile, "name", "Web")
+
     def search_news(
         self,
         keywords: list[str],
@@ -20,7 +31,11 @@ class BraveSearchClient:
     ) -> list[Topic]:
         all_topics = []
 
-        for keyword in keywords:
+        for i, keyword in enumerate(keywords):
+            # Rate limiting: wait 1.5 seconds between requests to avoid 429
+            if i > 0:
+                time.sleep(1.5)
+
             try:
                 results = self.client.search(
                     q=keyword,
@@ -48,7 +63,7 @@ class BraveSearchClient:
                             snippet=getattr(item, "description", ""),
                             date=datetime.now(),
                             relevance_score=0.6,
-                            source=getattr(item, "profile", {}).get("name", "Web"),
+                            source=self._get_source_name(item),
                         )
                         all_topics.append(topic)
 

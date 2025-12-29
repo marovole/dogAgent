@@ -47,9 +47,11 @@ yarn-error.log*
 next-env.d.ts
 
 # python automation
-automation/__pycache__/
-automation/.venv/
-automation/*.pyc
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
 automation/.env
 
 # generated content (committed by automation)
