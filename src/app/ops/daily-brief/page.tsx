@@ -1,36 +1,17 @@
-import fs from 'fs';
-import path from 'path';
-
 export default function OpsDailyBriefPage() {
-  const briefsDir = path.join(process.cwd(), 'content', 'ops');
-  let briefs: string[] = [];
-
-  if (fs.existsSync(briefsDir)) {
-    briefs = fs.readdirSync(briefsDir)
-      .filter(f => f.endsWith('.json'))
-      .sort()
-      .reverse();
-  }
-
   return (
     <div>
       <h2 className="text-xl font-semibold text-slate-900 mb-6">每日運營簡報列表</h2>
-      {briefs.length > 0 ? (
-        <ul className="space-y-2">
-          {briefs.map((brief) => (
-            <li key={brief}>
-              <a
-                href={`/ops/daily-brief/${brief.replace('.json', '')}`}
-                className="block rounded-lg bg-white p-4 shadow hover:shadow-md transition-shadow"
-              >
-                <span className="font-medium text-slate-900">{brief.replace('.json', '')}</span>
-              </a>
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p className="text-slate-600">目前沒有簡報資料。</p>
-      )}
+      <p className="text-slate-600">
+        簡報資料會在每日自動化流程執行後生成。
+        請查看 <code className="bg-slate-200 px-1 rounded">content/ops/</code> 目錄。
+      </p>
+      <div className="mt-4 p-4 bg-amber-50 rounded-lg">
+        <p className="text-amber-800 text-sm">
+          提示：此頁面僅在本地開發或有動態伺服器時可正常列出檔案。
+          靜態部署時，請直接存取已知日期的簡報。
+        </p>
+      </div>
     </div>
   );
 }
