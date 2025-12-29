@@ -1,0 +1,180 @@
+{
+  "Metadata": {
+    "title": "Dogplay Agent - India's Premier Betting Affiliate Program",
+    "description": "Join Dogplay Agent Program and earn up to 50% revenue share. High CPA rates, crypto payments, and dedicated support for Indian partners.",
+    "keywords": "Dogplay Agent, betting affiliate, India affiliate program, cricket betting partner, iGaming affiliate"
+  },
+  "Layout": {
+    "nav": {
+      "home": "Home",
+      "blog": "Blog",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "footer": {
+      "about": "About Us",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "affiliateDisclosure": "Affiliate Disclosure",
+      "responsibleGambling": "Responsible Gambling",
+      "copyright": "© {year} Dogplay Agent. All rights reserved.",
+      "disclaimer": "This website contains affiliate links. We may earn commissions from qualifying purchases."
+    }
+  },
+  "HomePage": {
+    "hero": {
+      "title": "Earn Big with Dogplay Agent Program",
+      "subtitle": "India's most lucrative betting affiliate partnership. Up to 50% revenue share with instant crypto payouts.",
+      "cta": "Join Now",
+      "ctaSecondary": "Calculate Earnings"
+    },
+    "value": {
+      "title": "Why Partner with Dogplay?",
+      "subtitle": "Industry-leading commissions and unmatched support for Indian affiliates",
+      "features": {
+        "commission": {
+          "title": "Transparent Commissions",
+          "description": "Choose between competitive CPA rates or up to 50% RevShare. Track your earnings in real-time."
+        },
+        "support": {
+          "title": "24/7 Partner Support",
+          "description": "Dedicated account managers who understand the Indian market and speak your language."
+        },
+        "payment": {
+          "title": "Crypto & Bank Payouts",
+          "description": "Get paid weekly via USDT, Bitcoin, or direct bank transfer. No minimum threshold."
+        },
+        "tools": {
+          "title": "Marketing Tools",
+          "description": "Access banners, landing pages, and tracking links optimized for cricket and casino."
+        }
+      }
+    },
+    "calculator": {
+      "title": "Calculate Your Earnings",
+      "subtitle": "See how much you could earn as a Dogplay Agent",
+      "playersLabel": "Monthly Active Players",
+      "revenueLabel": "Estimated Monthly Revenue",
+      "cpaLabel": "CPA Earnings",
+      "revshareLabel": "RevShare Earnings",
+      "totalLabel": "Total Potential Earnings",
+      "cta": "Start Earning Today"
+    },
+    "onboarding": {
+      "title": "Start Earning in 3 Simple Steps",
+      "subtitle": "Get your affiliate link and start monetizing your traffic today",
+      "steps": {
+        "register": {
+          "title": "Register",
+          "description": "Sign up for free in under 2 minutes. No approval waiting."
+        },
+        "getLink": {
+          "title": "Get Your Link",
+          "description": "Receive your unique tracking link and marketing materials."
+        },
+        "earn": {
+          "title": "Start Earning",
+          "description": "Share your link and earn commissions on every referral."
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about the Dogplay Agent Program"
+    },
+    "trust": {
+      "title": "Trusted by Partners Worldwide",
+      "ageWarning": "18+ Only. Gambling can be addictive. Please play responsibly.",
+      "affiliateNotice": "This site contains affiliate links. Read our <link>Affiliate Disclosure</link> for more details."
+    }
+  },
+  "BlogPage": {
+    "title": "Latest News & Updates",
+    "subtitle": "Stay informed about iGaming trends, cricket betting insights, and affiliate marketing tips",
+    "readMore": "Read More",
+    "publishedOn": "Published on {date}",
+    "readingTime": "{minutes} min read",
+    "noArticles": "No articles found.",
+    "categories": {
+      "all": "All Posts",
+      "news": "Industry News",
+      "cricket": "Cricket Updates",
+      "tips": "Affiliate Tips"
+    }
+  },
+  "ArticlePage": {
+    "backToBlogs": "← Back to Blog",
+    "shareArticle": "Share this article",
+    "sources": "Sources",
+    "relatedArticles": "Related Articles",
+    "affiliateDisclosure": "Disclosure: This article may contain affiliate links. See our {link} for details."
+  },
+  "FAQ": {
+    "items": [
+      {
+        "question": "How much can I earn as a Dogplay Agent?",
+        "answer": "Earnings depend on your traffic quality and volume. Our top partners earn over ₹10 lakhs monthly. We offer up to 50% RevShare or competitive CPA rates starting at $50 per player."
+      },
+      {
+        "question": "What payment methods do you support?",
+        "answer": "We support USDT (TRC-20), Bitcoin, and direct bank transfers for Indian partners. Payments are processed weekly with no minimum threshold."
+      },
+      {
+        "question": "Is the Dogplay affiliate program available in India?",
+        "answer": "Yes! Dogplay specifically welcomes Indian affiliates. We provide Hindi marketing materials and have dedicated support for the Indian market."
+      },
+      {
+        "question": "How do I track my referrals and earnings?",
+        "answer": "Our real-time dashboard shows all clicks, registrations, deposits, and earnings. You can access detailed reports 24/7."
+      },
+      {
+        "question": "Do I need a website to become an affiliate?",
+        "answer": "While having a website helps, it's not required. Many successful affiliates use social media, YouTube, or Telegram channels to promote."
+      },
+      {
+        "question": "How long does the cookie last?",
+        "answer": "Our tracking cookie lasts 30 days, meaning you earn commissions on any signup within 30 days of a user clicking your link."
+      }
+    ]
+  },
+  "Legal": {
+    "about": {
+      "title": "About Dogplay Agent",
+      "content": "Dogplay Agent is the official affiliate program for Dogplay, one of Asia's leading online gaming platforms."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "email": "Email: partners@dogplay.io",
+      "support": "For partnership inquiries and support"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: {date}"
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated: {date}"
+    },
+    "affiliateDisclosure": {
+      "title": "Affiliate Disclosure",
+      "content": "This website is operated by independent affiliates of Dogplay. We may earn commissions when you click our links and make purchases or sign up for services. This comes at no additional cost to you."
+    },
+    "responsibleGambling": {
+      "title": "Responsible Gambling",
+      "warning": "Gambling should be entertaining, not a way to make money. Only gamble with money you can afford to lose.",
+      "ageRestriction": "You must be 18 years or older to participate in gambling activities.",
+      "helplines": "If you or someone you know has a gambling problem, please seek help."
+    }
+  },
+  "Common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "signUp": "Sign Up",
+    "joinNow": "Join Now",
+    "contactUs": "Contact Us",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "notFound": "Page not found"
+  }
+}

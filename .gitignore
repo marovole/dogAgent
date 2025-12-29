@@ -19,6 +19,7 @@
 
 # production
 /build
+/.open-next/
 
 # misc
 .DS_Store
@@ -32,10 +33,30 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
 
+# cloudflare
+.wrangler/
+.dev.vars
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# python automation
+automation/__pycache__/
+automation/.venv/
+automation/*.pyc
+automation/.env
+
+# generated content (committed by automation)
+# public/images/generated/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

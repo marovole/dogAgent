@@ -1,0 +1,13 @@
+[project]
+name = "dogplay-content-automation"
+version = "1.0.0"
+description = "Automated content generation for Dogplay Agent SEO site"
+requires-python = ">=3.11"
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.isort]
+profile = "black"
+line_length = 100
