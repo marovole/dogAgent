@@ -51,7 +51,7 @@ TAGS: [comma-separated tags]
         locale="en",
         category="news",
         tags=tags,
-        sources=[{"title": topic.source, "url": topic.url}],
+        sources=[{"title": str(topic.source), "url": str(topic.url)}],
     )
 
 

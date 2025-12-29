@@ -66,9 +66,9 @@ def generate_ops_brief(
         "date": datetime.now().strftime("%Y-%m-%d"),
         "topics": [
             {
-                "title": t.title,
-                "summary": t.snippet[:200],
-                "sources": [{"title": t.source, "url": t.url}],
+                "title": str(t.title),
+                "summary": str(t.snippet)[:200],
+                "sources": [{"title": str(t.source), "url": str(t.url)}],
             }
             for t in topics
         ],

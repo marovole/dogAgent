@@ -49,7 +49,7 @@ TAGS: [अल्पविराम से अलग टैग]
         locale="hi",
         category="news",
         tags=tags,
-        sources=[{"title": topic.source, "url": topic.url}],
+        sources=[{"title": str(topic.source), "url": str(topic.url)}],
     )
 
 
