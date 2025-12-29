@@ -4,27 +4,29 @@ from openai import OpenAI
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 
+# Chutes.ai configuration
+CHUTES_BASE_URL = "https://llm.chutes.ai/v1/"
+CHUTES_DEFAULT_MODEL = "deepseek-ai/DeepSeek-V3.2-TEE"
+
+
 class ChutesLLMClient:
     def __init__(
         self,
         api_key: Optional[str] = None,
         base_url: Optional[str] = None,
-        model: str = "gpt-4o-mini",
+        model: Optional[str] = None,
     ):
-        self.api_key = (
-            api_key or os.getenv("CHUTES_API_KEY") or os.getenv("OPENAI_API_KEY")
-        )
-        self.base_url = base_url or os.getenv("CHUTES_BASE_URL")
+        self.api_key = api_key or os.getenv("CHUTES_API_KEY")
+        self.base_url = base_url or os.getenv("CHUTES_BASE_URL") or CHUTES_BASE_URL
+        self.model = model or os.getenv("CHUTES_MODEL") or CHUTES_DEFAULT_MODEL
 
         if not self.api_key:
-            raise ValueError("API key not found")
+            raise ValueError("CHUTES_API_KEY not found")
 
-        client_kwargs = {"api_key": self.api_key}
-        if self.base_url:
-            client_kwargs["base_url"] = self.base_url
-
-        self.client = OpenAI(**client_kwargs)
-        self.model = model
+        self.client = OpenAI(
+            api_key=self.api_key,
+            base_url=self.base_url,
+        )
 
     @retry(
         stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10)
