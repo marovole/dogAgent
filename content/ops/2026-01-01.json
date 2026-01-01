@@ -1,0 +1,45 @@
+{
+  "date": "2026-01-01",
+  "topics": [
+    {
+      "title": "Principais Notícias sobre Índia | Tudo o que Precisa de Saber",
+      "summary": "Descubra os melhores artigos sobre Índia! Encontre conteúdos atualizados e relevantes sobre Índia, dicas, insights e muito mais. Explore agora e fique por dentro de tudo sobre Índia",
+      "sources": [
+        {
+          "title": "Notícias ao Minuto",
+          "url": "https://www.noticiasaominuto.com/mundo/tag/india"
+        }
+      ]
+    },
+    {
+      "title": "Technology News: Latest Tech News, Phones, Laptops, Gaming & Gadgets Updates | The Indian Express",
+      "summary": "Get the latest technology news, reviews, and updates on smartphones, laptops, gaming, wearables, and more. Stay updated on Apple, Samsung, Google, Microsoft, and other tech giants with The Indian Expr",
+      "sources": [
+        {
+          "title": "The Indian Express",
+          "url": "https://indianexpress.com/section/technology/"
+        }
+      ]
+    },
+    {
+      "title": "India News Network – Global News & Feature Agency Covering India’s Top Stories",
+      "summary": "India News Network is a global news and feature agency delivering premium content on India’s politics, economy, tech, health, and more. Trusted by media outlets, websites, and influencers worldwide.",
+      "sources": [
+        {
+          "title": "IndiaNewsNetwork",
+          "url": "https://www.indianewsnetwork.com/"
+        }
+      ]
+    }
+  ],
+  "keyInsights": [
+    "印度市場的資訊需求多元，從綜合新聞到垂直的科技領域均有專門且即時的內容供應。",
+    "科技消費電子（如手機、筆電、遊戲裝置）是印度媒體持續關注與報導的熱門領域。",
+    "國際與全球性的新聞機構正透過建立專門網絡或頻道，系統性地生產和分發關於印度的深度內容。",
+    "印度新聞內容的受眾不僅限於本土，也透過全球分發網絡觸及國際讀者與媒體。"
+  ],
+  "marketTrends": [
+    "當前印度資訊市場呈現內容專業化與分眾化的趨勢，同時科技類資訊是持續的熱點。國際新聞機構正加強對印度題材的深度覆蓋與全球傳播，顯示印度在全球新聞議程中的重要性日益提升。"
+  ],
+  "generatedAt": "2026-01-01T03:57:39.145722"
+}
