@@ -1,0 +1,44 @@
+{
+  "date": "2026-01-02",
+  "topics": [
+    {
+      "title": "Technology News: Latest Tech News, Phones, Laptops, Gaming & Gadgets Updates | The Indian Express",
+      "summary": "Get the latest technology news, reviews, and updates on smartphones, laptops, gaming, wearables, and more. Stay updated on Apple, Samsung, Google, Microsoft, and other tech giants with The Indian Expr",
+      "sources": [
+        {
+          "title": "The Indian Express",
+          "url": "https://indianexpress.com/section/technology/"
+        }
+      ]
+    },
+    {
+      "title": "Indian industry : Latest News Headlines, Videos and Photo Galleries on Indian industry | Business Standard",
+      "summary": "Indian industry - Read all the latest news headline updates on Indian industry. Get all the Indian industry breaking news updates, videos, photostories and more at Business Standard.",
+      "sources": [
+        {
+          "title": "Business Standard",
+          "url": "https://www.business-standard.com/topic/indian-industry"
+        }
+      ]
+    },
+    {
+      "title": "India News | Today's latest updates and breaking news from India, Live India News - NDTV.com",
+      "summary": "India News | Latest India News | Read latest and breaking news from India. Today&#x27;s top India news headlines, news on Indian politics, elections, government, business, technology, and Bollywood.",
+      "sources": [
+        {
+          "title": "NDTV",
+          "url": "https://www.ndtv.com/india"
+        }
+      ]
+    }
+  ],
+  "keyInsights": [
+    "主流新聞媒體均設有專門的科技與產業新聞版面，顯示這些領域的資訊具有高度市場關注度。",
+    "新聞內容涵蓋範圍從國際科技巨頭動態到本地產業發展，顯示市場對宏觀趨勢與微觀本土資訊均有需求。",
+    "新聞呈現形式多元化，包含文字、影片及圖像故事，以迎合不同用戶的資訊消費習慣。"
+  ],
+  "marketTrends": [
+    "印度新聞市場呈現出對科技與產業資訊的強烈需求，主要媒體平台均將其作為核心內容板塊。資訊覆蓋面廣，從全球科技趨勢到本土商業動態，並採用多媒體形式進行傳播，以滿足受眾對即時、多元內容的獲取需求。"
+  ],
+  "generatedAt": "2026-01-02T03:49:34.709665"
+}
