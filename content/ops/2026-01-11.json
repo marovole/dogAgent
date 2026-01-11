@@ -1,0 +1,44 @@
+{
+  "date": "2026-01-11",
+  "topics": [
+    {
+      "title": "India News: Today's Breaking News & Latest Updates From India | Business Standard",
+      "summary": "Latest News India: Get the breaking news from India on indian government, economic developments, entertainment, technology, lifestyle &amp; more. Find comprehensive updates and insights from Business ",
+      "sources": [
+        {
+          "title": "Business Standard",
+          "url": "https://www.business-standard.com/india-news"
+        }
+      ]
+    },
+    {
+      "title": "India News | Today's latest updates and breaking news from India, Live India News - NDTV.com",
+      "summary": "India News | Latest India News | Read latest and breaking news from India. Today&#x27;s top India news headlines, news on Indian politics, elections, government, business, technology, and Bollywood.",
+      "sources": [
+        {
+          "title": "NDTV",
+          "url": "https://www.ndtv.com/india"
+        }
+      ]
+    },
+    {
+      "title": "Indian Startup IPO Tracker 2025",
+      "summary": "Learn from India’s top 1% of D2C founders &amp; experts through actionable insights, proven strategies and tactics on how to launch a successful D2C Brand in 6 weeks. ... Stay ahead with the latest ne",
+      "sources": [
+        {
+          "title": "Inc42 Media",
+          "url": "https://inc42.com/features/indian-startup-ipo-tracker-2025/"
+        }
+      ]
+    }
+  ],
+  "keyInsights": [
+    "印度主流媒體（如Business Standard、NDTV）持續將政治、經濟與科技新聞作為核心報導內容，顯示這些領域是市場關注的焦點。",
+    "市場對於印度新創生態系統，特別是科技產業的發展、融資及公開上市動態，有持續且深入的資訊需求。",
+    "新聞來源不僅提供事件報導，更強調提供「全面更新」、「深入分析」及「可行見解」，顯示市場對深度內容的需求增長。"
+  ],
+  "marketTrends": [
+    "目前印度新聞市場呈現多元化與深度化趨勢，綜合性媒體廣泛覆蓋政治、經濟與生活議題，同時針對特定高增長領域（如新創科技與IPO）出現專業的深度追蹤與分析內容，滿足不同層次讀者對即時資訊與策略洞察的需求。"
+  ],
+  "generatedAt": "2026-01-11T04:00:21.368670"
+}
